@@ -29,3 +29,7 @@ variable "ami_id" {
 variable "ingress" {
   type = "list"
 }
+
+variable "machine_count" {
+  description = "The number of machines to create"
+}
